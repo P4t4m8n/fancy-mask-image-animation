@@ -40,14 +40,14 @@ button {
 .color-image {
   position: absolute;
   inset: 0;
-  background-image: url("/with-color.jpg");
+  background-image: url("with-color.jpg");
   background-size: cover;
 
 
-  -webkit-mask-image: url("/mask-3.png");
+  -webkit-mask-image: url("mask-3.png");
   -webkit-mask-size: 2500% 100%; /* Corrected for 25 horizontal frames */
   -webkit-mask-position: 0% 0%;   /* Corrected initial position */
-  mask-image: url("/mask-3.png");
+  mask-image: url("mask-3.png");
   mask-size: 2500% 100%; /* Corrected for 25 horizontal frames */
   mask-position: 0% 0%;    /* Corrected initial position */
 /* 
