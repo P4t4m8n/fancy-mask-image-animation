@@ -40,14 +40,14 @@ button {
 .color-image {
   position: absolute;
   inset: 0;
-  background-image: url("with-color.jpg");
+  background-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497156/lwqsnfr8d5bamq5i5mgi.jpg");
   background-size: cover;
 
 
-  -webkit-mask-image: url("mask-3.png");
+  -webkit-mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497157/gxgmiybzppkvxy4mzrhe.png");
   -webkit-mask-size: 2500% 100%; /* Corrected for 25 horizontal frames */
   -webkit-mask-position: 0% 0%;   /* Corrected initial position */
-  mask-image: url("mask-3.png");
+  mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497157/gxgmiybzppkvxy4mzrhe.png");
   mask-size: 2500% 100%; /* Corrected for 25 horizontal frames */
   mask-position: 0% 0%;    /* Corrected initial position */
 /* 
