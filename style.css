@@ -35,29 +35,36 @@ button {
 
 .mask-container {
   position: relative;
+  height: 512px;
+  width: 512px;
+}
+img {
+  height: 512px;
+  width: 512px;
+  object-fit: cover;
 }
 
 .color-image {
   position: absolute;
   inset: 0;
-  background-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497156/lwqsnfr8d5bamq5i5mgi.jpg");
-  background-size: cover;
+  background-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497390/tq4ekkdflf3u8eifqhdc.jpg");
+  background-size: cover; /* Changed from contain to cover */
+  background-repeat: no-repeat;
+  background-position: center;
 
-
-  -webkit-mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497157/gxgmiybzppkvxy4mzrhe.png");
-  -webkit-mask-size: 2500% 100%; /* Corrected for 25 horizontal frames */
-  -webkit-mask-position: 0% 0%;   /* Corrected initial position */
-  mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497157/gxgmiybzppkvxy4mzrhe.png");
+  -webkit-mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497389/kley7psrkticm2u9jnaw.png");
+  -webkit-mask-size: 2500% 0%; /* Corrected for 25 horizontal frames */
+  -webkit-mask-position: 0% 0%; /* Corrected initial position */
+  mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497389/kley7psrkticm2u9jnaw.png");
   mask-size: 2500% 100%; /* Corrected for 25 horizontal frames */
-  mask-position: 0% 0%;    /* Corrected initial position */
-/* 
+  mask-position: 0% 0%; /* Corrected initial position */
+  /* 
   transition: 
     -webkit-mask-position ; */
 }
 
 .mask-animation {
-  animation: 
-    addColor 2000ms steps(24) forwards;
+  animation: addColor 1700ms steps(24) forwards;
 }
 
 @keyframes addColor {
