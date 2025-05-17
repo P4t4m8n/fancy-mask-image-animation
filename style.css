@@ -42,6 +42,7 @@ img {
   height: 512px;
   width: 512px;
   object-fit: cover;
+  opacity: 0;
 }
 
 .color-image {
