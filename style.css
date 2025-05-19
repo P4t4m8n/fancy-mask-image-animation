@@ -48,16 +48,16 @@ img {
 .color-image {
   position: absolute;
   inset: 0;
-  background-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747491822/uo3juo93k3jtgqyfe73a.png");
+  background-image: url("IMG_3280.jpg");
   background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
 
   -webkit-mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497389/kley7psrkticm2u9jnaw.png");
-  -webkit-mask-size: 2500% 0%; 
+  -webkit-mask-size: 3700% 0%; 
   -webkit-mask-position: 0% 0%;
   mask-image: url("https://res.cloudinary.com/dvett6v2h/image/upload/v1747497389/kley7psrkticm2u9jnaw.png");
-  mask-size: 2500% 100%; 
+  mask-size: 3700% 100%; 
   mask-position: 0% 0%; 
 
 }
