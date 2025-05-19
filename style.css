@@ -63,7 +63,7 @@ img {
 }
 
 .mask-animation {
-  animation: addColor 1700ms steps(24) forwards;
+  animation: addColor 2700ms steps(24) forwards;
 }
 
 @keyframes addColor {
